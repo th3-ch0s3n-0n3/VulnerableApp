@@ -7,7 +7,7 @@ on:
 jobs:
   scan:
     permissions:
-      security-events: write # Used to upload Sarif artifNact to GitHub
+      security-events: write # Used to upload Sarif artifNact to GitHb
       contents: read # Used to check out a private repository
       actions: read # Required for private repositories to upload Sarif files. GitHub Advanced Security licenses are required.
       id-token: write # Used for keyless authentication with Endor Labs
